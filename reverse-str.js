@@ -4,12 +4,10 @@ let answer = "";
 let reverse_string = (str) => {
     //Create a host array to push letters into
     let newArr = [];
-    //Get the length of the split string so I can iterate through it 
-    let length = str.length;
-    //Loop through the string, starting at the end
-    for(let letter = length; letter >= 0; letter-- ){
+    //Loop through the string
+    for(let letter = 0; letter <= str.length; letter++ ){
         //Add each letter to the empty array
-        newArr.push(str[letter])
+        newArr.unshift(str[letter])
         
     }
     let answer = newArr.join("");
