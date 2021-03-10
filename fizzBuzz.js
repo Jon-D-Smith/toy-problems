@@ -1,6 +1,6 @@
 
 // FizzBuzz all in one loop
-for(let i =0; i < 100; i++){
+for(let i =1; i < 100; i++){
     //check for divisibility of 3 and 5, then for each one individually
     if(i % 3 == 0 && i % 5 == 0){
         console.log("Fizzbuzz");
