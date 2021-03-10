@@ -19,5 +19,9 @@ reverse-str.js:
 
 This method reverses strings (Letters, punctuations, and spaces) without using the built in ".reverse()" method. It does this by looping through a string, then "unshifting" each letter to a new arr variable. Once every letter is set, I join them back into a full string.
 
+fizzBuzz.js:
+
+This method runs through the numbers 1-100. Whenever a number is divisible by 3 it returns "fizz", When a number is divisible by 5 it returns "buzz", and when it is divisible by both, it returns "fizzbuzz".
+
 
 *Running this program locally will require node.js to be installed to your machine.
